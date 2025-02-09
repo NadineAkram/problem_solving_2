@@ -1,0 +1,21 @@
+@Shallow Copy :
+--> 	Creates a new object but copies references to nested objects.
+@ Deep Copy :
+--> Creates a completely new object, including copies of nested objects.
+
+______________________________________________________________________________________________________
+
+@@Hoisting :
+--> variable and function declarations are moved to the top of their scope before execution.
+-->  examples : var, let, and const.
+ تجعل المتغيرات والدوال تُرفع إلى أعلى الكود قبل تنفيذ البرنامج
+
+------ ----------------------------------------------
+console.log(a); // Output: undefined
+var a = 5;
+
+console.log(b); // ReferenceError: Cannot access 'b' before initialization
+let b = 10;
+
+console.log(c); // ReferenceError: Cannot access 'c' before initialization
+const c = 15;
